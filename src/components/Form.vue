@@ -370,10 +370,10 @@ input[type="radio"]:checked + label:after,
 input[type="radio"]:not(:checked) + label:after {
   content: "";
   position: absolute;
-  -webkit-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  -o-transition: all 0.1s ease;
-  transition: all 0.1s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 input[type="checkbox"]:checked + label:after,
