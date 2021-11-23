@@ -1,8 +1,12 @@
 <template>
-  <div id="app">
+  <div id="app" class="view">
     <router-view></router-view>
   </div>
 </template>
 
-<style lang="scss">
+<style scoped>
+.view {
+  display: flex;
+  justify-content: center;
+}
 </style>
