@@ -80,7 +80,7 @@
 <script>
 import SendForm from "@/views/SendForm";
 export default {
-  components: {SendForm},
+  components: { SendForm },
   data () {
     return {
       themes: [{
